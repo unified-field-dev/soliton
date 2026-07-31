@@ -1,0 +1,6 @@
+/target
+/target-*
+/soliton/release
+/soliton/doc
+/soliton/.rustc_info.json
+/soliton/CACHEDIR.TAG

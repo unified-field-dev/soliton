@@ -1,0 +1,33 @@
+[package]
+name = "soliton"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Axum listen/serve, request extensions, health, and optional HMAC subsystem auth"
+repository = "https://github.com/unified-field-dev/soliton"
+readme = "../README.md"
+publish = false
+
+[dependencies]
+anyhow.workspace = true
+axum = { workspace = true, features = ["http1", "tokio"] }
+hex.workspace = true
+hmac.workspace = true
+sha2.workspace = true
+subtle.workspace = true
+tokio = { workspace = true, features = ["macros", "net", "signal", "rt-multi-thread", "sync", "time", "io-util"] }
+tracing.workspace = true
+
+[dev-dependencies]
+http-body-util = "0.1"
+serde_json.workspace = true
+tower = { workspace = true, features = ["util"] }
+
+[[example]]
+name = "process_host"
+
+[[example]]
+name = "hmac_health_host"
+
+[lints]
+workspace = true
