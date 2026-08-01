@@ -4,9 +4,9 @@ Re-run after code or doc changes. Thin Axum HTTP host helpers (listen/serve, hea
 request extensions, optional subsystem HMAC, Tokio worker stack) — covered by
 unit + integration tests below.
 
-**Blast radius:** L1 kit-local. **AWS campaign:** not required (no campaign inventory;
+**Blast radius:** kit-local. **AWS campaign:** not required (no campaign inventory;
 no new operator workflow). **Bench / EXPERIMENTS / PERFORMANCE_STUDY:** not required
-(correctness-only; not an L0 or L4 measured hot path). **IsolatedLab e2e:** not
+(correctness-only; not a measured hot path). **IsolatedLab e2e:** not
 required — `tests/*_contract.rs` + unit modules are the CI correctness gate.
 
 ## Environment
