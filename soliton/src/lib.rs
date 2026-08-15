@@ -62,7 +62,6 @@
 //! # Further reading
 //!
 //! - Crate README — dependency snippet and About inventory
-//! - `DESIGN.md` — surface map for maintainers
 //! - `docs/VERIFICATION.md` — test map and doc gates
 //! - `SECURITY.md` — host composition and subsystem HMAC requirements
 

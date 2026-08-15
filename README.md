@@ -59,7 +59,7 @@ export CARGO_BUILD_JOBS=1
 cargo test --workspace
 ```
 
-See also [docs/VERIFICATION.md](docs/VERIFICATION.md) and [DESIGN.md](DESIGN.md).
+See also [docs/VERIFICATION.md](docs/VERIFICATION.md).
 
 ## License
 
